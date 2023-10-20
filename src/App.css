@@ -1,0 +1,42 @@
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.app {
+  width: 100vw;
+  height: 720px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+
+  background: linear-gradient(to bottom, #b19ad6, #a4ebe7, #e6adce, #e2ceafa4);
+  opacity: 0.9;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 64px;
+}
+.navbar {
+  text-align: center;
+  line-height: 2.3em;
+}
+.navbar h1 {
+  color: #8f0eca;
+  font-size: 2.6em;
+  font-family: "Young Serif", serif;
+}
+.navbar p {
+  font-family: "Caveat", cursive;
+}
+.buttons {
+  margin-right: 12px;
+}
+
+.icon {
+  margin: 10px 0 0 10px;
+}
